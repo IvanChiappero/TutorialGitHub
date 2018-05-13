@@ -27,6 +27,14 @@
         </activity>
         <activity android:name=".CrearEvento">
         </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="6c54388bf65e54d51e097ea7abb0560f97c95203"
+            />
+
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
